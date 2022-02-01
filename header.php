@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <!-- <img src="" alt="" class="logo"> -->
+        <img src="img/logo.png" alt="logo" class="logo">
         <input type="checkbox" id="tog" class="tog">
         <nav>
             <ul>
@@ -23,5 +23,24 @@
             <span></span>
         </label>
     </header>
+
+    <div class="grid-layout-one">
+        <p>GRID</p>
+        <div class="carousell">
+            <p>Carousell</p>
+        </div>
+        <div class="intro">
+            <p>Intro</p>
+        </div>
+        <div class="layout-one">
+            <p>ONE</p>
+        </div>
+        <div class="layout-two">
+            <p>TWO</p>
+        </div>
+        <div class="layout-three">
+            <p>THREE</p>
+        </div>
+    </div>
 </body>
 </html>
