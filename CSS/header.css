@@ -519,7 +519,7 @@ nav a:hover {
 
   header {
     display: grid;
-    grid-template-columns: 1fr 1fr auto minmax(600px, 1fr) 0.2fr;
+    grid-template-columns: 1fr 1fr auto minmax(600px, 1fr);
   }
 
   .logo {
@@ -534,7 +534,7 @@ nav a:hover {
 
   nav {
     all: unset;
-    grid-column: 4/5;
+    grid-column: 2/4;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -547,7 +547,7 @@ nav a:hover {
   }
 
   nav li {
-    margin-left: 3em;
+    margin-left: 4em;
     margin-bottom: 0;
   }
 
@@ -589,58 +589,4 @@ nav a:hover {
   nav a:hover::after {
     transform: scale(1, 1);
   }
-}
-
-/* Main Section */
-p {
-  color: red;
-}
-
-.grid-layout-one {
-  background-color: violet;
-  display: grid;
-  width: 100vw;
-  height: 100vh;
-  padding-top: 100px;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-areas:
-    "Carousell"
-    "Intro"
-    "One"
-    "Two"
-    "Three";
-}
-
-.carousell {
-  background-color: palegreen;
-  width: 85vw;
-  height: 100px;
-  grid-area: Carousell;
-}
-
-.intro {
-  background-color: palevioletred;
-  width: 100px;
-  height: 100px;
-  grid-area: Intro;
-}
-
-.layout-one {
-  background-color: purple;
-  width: 100px;
-  height: 100px;
-  grid-area: One;
-}
-.layout-two {
-  background-color: purple;
-  width: 100px;
-  height: 100px;
-  grid-area: Two;
-}
-.layout-three {
-  background-color: purple;
-  width: 100px;
-  height: 100px;
-  grid-area: Three;
 }
