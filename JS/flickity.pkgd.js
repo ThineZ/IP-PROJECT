@@ -4594,4 +4594,3 @@
   return Flickity;
   
   }));
-  

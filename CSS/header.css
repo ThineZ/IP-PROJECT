@@ -536,7 +536,7 @@ nav a:hover {
     all: unset;
     grid-column: 2/4;
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: center; */
     align-items: center;
   }
 
