@@ -45,12 +45,22 @@
         <div class="color">
           <span>
             MOSS
-          </span>
-          <span>
+            <br>
             GREEN
           </span>
         </div>
         <div class="txt">
+          <p>What's better for a nature-inspired house 
+            than the colour of nature itself? When you 
+            visualize the color green-bamboo, grassy 
+            meadows, pine forests, and lush tropical 
+            greenery may come to mind. This refreshing 
+            colour is gives off a serene feeling to your 
+            home. 
+            (Tip: Add greenery such as potted plants
+            to make your space look more appealing
+            and alive!)
+          </p>
         </div>
       </div>
     </div>
