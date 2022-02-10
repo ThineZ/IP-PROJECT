@@ -389,15 +389,38 @@ template {
 
 /* Main Section */
 
-@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
 
-p {
-  color: red;
-  font-family: "Karla", sans-serif;
+.text-one {
+  color: #707070;
+  text-align: left;
+  font-family: Bjorn;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.text-two {
+  color: #707070;
+  text-align: left;
+  font-family: Bjorn;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+}
+
+.text-three {
+  color: #707070;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  width: 1038px;
+  height: 210px;
 }
 
 .grid-layout {
-  background-color: plum;
   display: grid;
   height: 100vh;
   padding-top: 50px;
@@ -414,28 +437,30 @@ p {
 }
 
 .carousell {
-  background-color: palegreen;
   grid-area: Carousell;
+  padding-top: 60px;
 }
 
 .intro {
-  background-color: palevioletred;
   grid-area: Intro;
-  font-family: "Karla", sans-serif;
+  padding-left: 90px;
 }
 
 .layout-one {
-  background-color: purple;
+  /* background-color: purple; */
   grid-area: One;
 }
+
 .layout-two {
   background-color: purple;
   grid-area: Two;
 }
+
 .layout-three {
   background-color: purple;
   grid-area: Three;
 }
+
 .layout-four {
   background-color: purple;
   grid-area: Four;
@@ -445,13 +470,14 @@ p {
 
 .carousel {
   background: #222;
+  width: 90%;
+  left: 90px;
 }
 
 .carousel-cell {
   width: 100%;
   height: 300px;
   margin-right: 10px;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -460,4 +486,44 @@ p {
 .carousel-cell-image {
   display: block;
   max-height: 100%;
+}
+
+/* LAYOUT ONE */
+
+.pic {
+  grid-area: pic;
+  background-color: aqua;
+  background-image: url("img/green.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 560px;
+  height: 760px;
+}
+
+.color {
+  width: 518px;
+  height: 410px;
+  background-color: #8a9a5b;
+  grid-area: colorr;
+}
+
+.txt {
+  width: 518px;
+  height: 330px;
+  background-color: #8a9a5b;
+  grid-area: txt;
+}
+
+.tem-layout {
+  /* background-color: burlywood; */
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "pic colorr"
+    "pic txt";
+  gap: 1rem;
+  width: 1100px;
+  height: 770px;
+  margin-left: 370px;
 }

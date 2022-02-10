@@ -9,11 +9,11 @@
 </head>
 <body>
     <header>
-        <img src="img/logo.png" alt="logo" class="logo">
+        <a href="index.php"><img class="logo" src="CSS/img/logo.png" alt="logo"></a>
         <input type="checkbox" id="tog" class="tog">
         <nav>
             <ul>
-                <li><a href="#">HOME</a></li>
+                <li><a href="index.php">HOME</a></li>
                 <li><a href="#">ABOUT</a></li>
                 <li><a href="#">SHOP</a></li>
                 <li><a href="#">REWARD</a></li>

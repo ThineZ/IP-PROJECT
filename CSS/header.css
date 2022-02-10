@@ -398,6 +398,10 @@ template {
 /* font-family: 'Patrick Hand SC', cursive;
                       font-family: 'Roboto', sans-serif; */
 
+/* font-family: Bjorn;
+font-style: normal;
+font-weight: lighter; */
+
 :root {
   --nav: #d8d0bd;
   --text: #707070;
@@ -438,8 +442,9 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  font-family: "Outfit", sans-serif;
-  font-family: "Roboto", sans-serif;
+  font-family: Bjorn;
+  font-style: normal;
+  font-weight: bold;
 }
 
 nav li {
@@ -525,7 +530,6 @@ nav a:hover {
   .logo {
     width: 90px;
     height: 90px;
-    padding-left: 20px;
   }
 
   .logo:hover {
