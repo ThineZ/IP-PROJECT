@@ -388,8 +388,9 @@ template {
 /* ------------------------------------------------------------------------------------------------------------------------ */
 
 /* Main Section */
-
-@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+body {
+  height: 100vh;
+}
 
 .text-one {
   color: #707070;

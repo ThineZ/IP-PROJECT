@@ -1,12 +1,13 @@
-<?php require 'header.php'?>
+<?php require 'header.php';?>
 <html>
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="JS\flickity.pkgd.js" defer></script>
+  <script src="https://unpkg.com/flickity-fade@1/flickity-fade.js" defer></script>
   <link rel='stylesheet' type="text/css" href='CSS/index.css'>
   <link rel='stylesheet' type="text/css" href='CSS/flickity.css'>
-  <link rel='stylesheet' type='text/css' href='footer.css'>
   <link rel="stylesheet" type="text/css" href="https://unpkg.com/flickity-fade@1/flickity-fade.css">
 </head>
 
@@ -134,11 +135,7 @@
         </div>
       </div>
     </div>
-  </div>
-  </div>
-  <script src="JS\flickity.pkgd.js" defer></script>
-  <script src="https://unpkg.com/flickity-fade@1/flickity-fade.js" defer></script>
+    <?php require 'footer.php';?>
 </body>
 
 </html>
-<?php require 'footer.php'?>
