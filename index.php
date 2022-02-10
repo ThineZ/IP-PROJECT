@@ -91,7 +91,26 @@
       </div>
     </div>
     <div class="layout-three">
-      <p>THREE</p>
+      <div class="tem-layout-two">
+        <div class="pic-two">
+        </div>
+        <div class="color-two">
+          <span>DUSTY<br>PINK</span>
+        </div>
+        <div class="txt-two">
+          <p>If you're looking for a warmer accent tone,
+            try styling your space with dusty blush
+            colors that contrast white rooms. This
+            feminine shade is an earthier version of
+            standard pink, and reminds us of fresh
+            roses and floral-scented rooms.
+            Quick tip!
+            To make your design more dynamic,
+            introduce texture to your walls, furniture, or
+            doors with patterns that break up deeper
+            colors.</p>
+        </div>
+      </div>
     </div>
     <div class="layout-four">
       <p>FOUR</p>
