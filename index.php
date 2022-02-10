@@ -50,13 +50,13 @@
           </span>
         </div>
         <div class="txt">
-          <p>What's better for a nature-inspired house 
-            than the colour of nature itself? When you 
-            visualize the color green-bamboo, grassy 
-            meadows, pine forests, and lush tropical 
-            greenery may come to mind. This refreshing 
-            colour is gives off a serene feeling to your 
-            home. 
+          <p>What's better for a nature-inspired house
+            than the colour of nature itself? When you
+            visualize the color green-bamboo, grassy
+            meadows, pine forests, and lush tropical
+            greenery may come to mind. This refreshing
+            colour is gives off a serene feeling to your
+            home.
             (Tip: Add greenery such as potted plants
             to make your space look more appealing
             and alive!)
@@ -65,7 +65,30 @@
       </div>
     </div>
     <div class="layout-two">
-      <p>TWO</p>
+      <div class="tem-layout-one">
+        <div class="pic-one">
+        </div>
+        <div class="color-one">
+          <span>
+            WOOD
+          </span>
+        </div>
+        <div class="txt-one">
+          <p>Wood is often incorporated into the
+            design of a space through walls, wood
+            slats, and flooring. Wooden toys, like that
+            of Danish designer Kay Bojesen’s iconic
+            wooden monkey introduced in 1951, can
+            also be placed around rooms as playful
+            accents. Often, designers juxtapose the
+            hard, dense material with rugs or
+            sheepskin textiles to soften the feel of a
+            space. In keeping with the light and bright
+            aesthetic of Scandinavian design, light
+            woods such as beech, ash, and pine are
+            typically used most.</p>
+        </div>
+      </div>
     </div>
     <div class="layout-three">
       <p>THREE</p>
