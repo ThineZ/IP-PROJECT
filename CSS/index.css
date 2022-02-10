@@ -455,12 +455,12 @@ template {
 }
 
 .layout-three {
-  background-color: purple;
+  /* background-color: purple; */
   grid-area: Three;
 }
 
 .layout-four {
-  background-color: purple;
+  /* background-color: purple; */
   grid-area: Four;
 }
 
@@ -560,10 +560,10 @@ template {
 }
 
 .color-one {
-  width: 518px;
-  height: 410px;
   grid-area: colorr;
   /* background-color: #eed5ae; */
+  width: 518px;
+  height: 410px;
   background-image: url("img/bwood.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -628,7 +628,7 @@ template {
   grid-area: colorr;
   width: 518px;
   height: 410px;
-  background-color: #E1AD9D;
+  background-color: #e1ad9d;
 }
 
 .color-two span {
@@ -647,7 +647,7 @@ template {
   grid-area: txt;
   width: 518px;
   height: 330px;
-  background-color: #E1AD9D;
+  background-color: #e1ad9d;
 }
 
 .txt-two p {
@@ -671,4 +671,65 @@ template {
   height: 770px;
   margin-left: 370px;
   gap: 1rem;
+}
+
+/* LAYOUT FOUR */
+
+.pic-three {
+  grid-area: pic;
+  width: 560px;
+  height: 760px;
+  background-image: url("img/wool.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.color-three {
+  grid-area: colorr;
+  width: 518px;
+  height: 410px;
+  background-image: url("img/bwool.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.color-three span {
+  font-family: Bjorn Halftone;
+  font-style: normal;
+  font-weight: normal;
+  filter: drop-shadow(0px 10px 6px rgba(0, 0, 0, 0.161));
+  color: white;
+  font-size: 60px;
+  overflow: visible;
+  position: absolute;
+  padding: 310px 0px 0px 290px;
+}
+
+.txt-three {
+  grid-area: txt;
+  width: 518px;
+  height: 330px;
+  background-color: #a59186;
+}
+
+.txt-three p {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  padding: 80px 0px 0px 30px;
+  color: black;
+}
+
+.tem-layout-three {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "pic colorr"
+    "pic txt";
+  gap: 1rem;
+  width: 1100px;
+  height: 770px;
+  margin-left: 370px;
 }

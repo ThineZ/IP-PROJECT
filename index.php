@@ -113,7 +113,26 @@
       </div>
     </div>
     <div class="layout-four">
-      <p>FOUR</p>
+      <div class="tem-layout-three">
+        <div class="pic-three">
+        </div>
+        <div class="color-three">
+          <span>WOOL</span>
+        </div>
+        <div class="txt-three">
+          <p>Wool fabric is strong, hard-wearing, and
+            naturally flame-retardant. It makes the
+            perfect upholstery material, and soft
+            furnishings. Many wools also have a natural
+            coating on their surface which repels liquid,
+            giving you time to mop up any spills that
+            may occur. Most high quality upholstery
+            wools will have a soft handle, however
+            cashmere blends in particular are the
+            softest, making them ideal for cushions
+            and throws.</p>
+        </div>
+      </div>
     </div>
   </div>
   </div>
