@@ -3,8 +3,8 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>The Hygge</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>The Hygge</title>
     <link rel='stylesheet' type="text/css" href='CSS/header.css'>
 </head>
 <body>
@@ -15,7 +15,7 @@
             <ul>
                 <li><a href="index.php">HOME</a></li>
                 <li><a href="#">ABOUT</a></li>
-                <li><a href="#">SHOP</a></li>
+                <li><a href="shop.php">SHOP</a></li>
                 <li><a href="#">REWARD</a></li>
             </ul>
         </nav>

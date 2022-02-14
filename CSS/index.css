@@ -388,8 +388,13 @@ template {
 /* ------------------------------------------------------------------------------------------------------------------------ */
 
 /* Main Section */
+::-webkit-scrollbar{
+  width: 0px;
+}
+
 body {
   height: 100vh;
+  overflow-x: hidden;
 }
 
 .text-one {
