@@ -18,9 +18,9 @@
   <div class="grid-layout">
     <div class="button">
       <div class="button-container">
-        <a href="#"><input class="contact" type="button" value="CONTACT US"></a>
-        <a href="#"><input class="locate" type="button" value="LOCATE US"></a>
-        <a href="#"><input class="product" type="button" value="PRODUCT CARE"></a>
+        <a href="#contact"><input class="contact" type="button" value="CONTACT US"></a>
+        <a href="#locate"><input class="locate" type="button" value="LOCATE US"></a>
+        <a href="#product"><input class="product" type="button" value="PRODUCT CARE"></a>
       </div>
     </div>
     <div class="about">
@@ -30,7 +30,7 @@
       environment while doing so. Got a old furniture you want to sell? Bring
       it in! We'll give your pre-owned furniture a new life and put it up for
       auction to let it give love and comfort to its new owner!</p><br><br>
-      <span class="abt-head">Contact us!</span><br>
+      <span id="contact" class="abt-head">Contact us!</span><br>
       <span>Your email address and contact number will not be published.</span> 
       <form>
         <br>
@@ -48,9 +48,9 @@
         <input type="submit" id="submit" name="submit">
       </form>
       <br>
-      <span class="abt-head">Locate Us!</span><br>
+      <span id="locate" class="abt-head">Locate Us!</span><br>
       <div class="map"></div>
-      <span class="abt-head">Product Care</span>
+      <span id="product" class="abt-head">Product Care</span>
       <p class="abt-para">Note:<br>
         Please be aware of safety hazards in the home. For your safety and to ensure the durability of your furniture,
         we

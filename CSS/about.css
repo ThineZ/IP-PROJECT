@@ -539,7 +539,6 @@ input[type=submit] {
   font-weight: normal;
   font-style: normal;
   font-size: 20px;
-/*   float: right; */
 }
 
 input[type=text] {
@@ -596,7 +595,7 @@ textarea {
 }
 
 .abt-intro {
-  width: 800px;
+  width: 1000px;
 }
 
 .abt-para {
