@@ -607,3 +607,13 @@ textarea {
   height: 400px;
   background-color: #358875;
 }
+
+
+/* LINK BUTTON */
+
+.link-btn {
+  width: auto;
+  height: 100px;
+  background-color: none;
+  display: block;
+}
