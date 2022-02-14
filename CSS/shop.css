@@ -386,10 +386,9 @@ template {
 /* ------------------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------------------ */
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 0px;
 }
-
 
 body {
   height: 100vh;
@@ -429,7 +428,7 @@ body {
 
 .items-one {
   grid-area: items-one;
-  background-color: aqua;
+  /* background-color: aqua; */
   width: 285px;
   height: 660px;
   position: relative;
@@ -448,7 +447,7 @@ body {
 
 .items-two {
   grid-area: items-two;
-  background-color: blue;
+  /* background-color: blue; */
   width: 1300px;
   height: 660px;
   position: relative;
@@ -459,13 +458,17 @@ body {
 
 .scrollable-checkbox {
   width: 170px;
-  height: 50px;
+  height: 70px;
   overflow-y: scroll;
   position: relative;
   top: 25px;
   scrollbar-width: thin;
   scrollbar-color: crimson white;
   scrollbar-gutter: stable both-edges;
+  font-family: Bjorn;
+  font-style: normal;
+  font-weight: lighter;
+  line-height: 1.5;
 }
 
 .scrollable-checkbox-one {
@@ -477,6 +480,145 @@ body {
   scrollbar-width: thin;
   scrollbar-color: crimson white;
   scrollbar-gutter: stable both-edges;
+  font-family: Bjorn;
+  font-style: normal;
+  font-weight: lighter;
+  line-height: 1.5;
+}
+
+.scrollable-checkbox-two {
+  width: 170px;
+  height: 50px;
+  overflow-y: scroll;
+  position: relative;
+  top: 50px;
+  scrollbar-width: thin;
+  scrollbar-color: crimson white;
+  scrollbar-gutter: stable both-edges;
+  font-family: Bjorn;
+  font-style: normal;
+  font-weight: lighter;
+  line-height: 1.5;
+}
+
+.container-one {
+  /* background-color: crimson; */
+  position: relative;
+  top: 20px;
+  cursor: pointer;
+}
+
+.container-two {
+  /* background-color: crimson; */
+  position: relative;
+  top: 35px;
+  cursor: pointer;
+}
+
+.container-three {
+  /* background-color: crimson; */
+  position: relative;
+  top: 45px;
+  cursor: pointer;
+}
+
+.dropbtn {
+  font-family: Bjorn;
+  font-style: normal;
+  font-weight: normal;
+  background: none;
+  border-style: none;
+  text-decoration: dashed;
+  cursor: pointer;
+  color: rgba(112, 112, 112, 1);
+  position: relative;
+  left: 30px;
+}
+
+.dropbtn-one {
+  font-family: Bjorn;
+  font-style: normal;
+  font-weight: normal;
+  background: none;
+  border-style: none;
+  text-decoration: dashed;
+  cursor: pointer;
+  color: rgba(112, 112, 112, 1);
+  position: relative;
+  left: 30px;
+}
+
+.dropbtn-two {
+  font-family: Bjorn;
+  font-style: normal;
+  font-weight: normal;
+  background: none;
+  border-style: none;
+  text-decoration: dashed;
+  cursor: pointer;
+  color: rgba(112, 112, 112, 1);
+  position: relative;
+  left: 30px;
+}
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 15px solid rgba(112, 112, 112, 1);
+  position: relative;
+  top: 15px;
+  display: none;
+}
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 15px solid rgba(112, 112, 112, 1);
+  position: relative;
+  top: 20px;
+}
+
+.triangle-up-one {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 15px solid rgba(112, 112, 112, 1);
+  position: relative;
+  top: 15px;
+  display: none;
+}
+.triangle-down-one {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 15px solid rgba(112, 112, 112, 1);
+  position: relative;
+  top: 20px;
+}
+
+.triangle-up-two {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 15px solid rgba(112, 112, 112, 1);
+  position: relative;
+  top: 15px;
+  display: none;
+}
+.triangle-down-two {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 15px solid rgba(112, 112, 112, 1);
+  position: relative;
+  top: 20px;
 }
 
 /* WEBKIT FOR CHROME SCROLLBAR */
@@ -502,14 +644,30 @@ body {
   width: 5px;
 }
 
-.container-one {
-  background-color: crimson;
+.item-grid {
+  /* background-color: crimson; */
+  width: 800px;
+  height: 600px;
   position: relative;
-  top: 20px;
+  top: 10px;
+  left: 10px;
 }
 
-.container-two {
-  background-color: crimson;
+.item-grid span {
+  font-family: Bjorn;
+  font-weight: normal;
+  font-style: normal;
+  color: rgba(112, 112, 112, 1);
+}
+.chair-info {
   position: relative;
-  top: 35px;
+  /* background-color: chartreuse; */
+  width: 330px;
+}
+.table-info {
+  position: relative;
+  bottom: 340px;
+  left: 320px;
+  /* background-color: chartreuse; */
+  width: 330px;
 }
