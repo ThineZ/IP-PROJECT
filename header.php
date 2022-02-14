@@ -14,7 +14,7 @@
         <nav>
             <ul>
                 <li><a href="index.php">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
+                <li><a href="about.php">ABOUT</a></li>
                 <li><a href="shop.php">SHOP</a></li>
                 <li><a href="#">REWARD</a></li>
             </ul>
