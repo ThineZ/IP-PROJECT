@@ -11,16 +11,16 @@
             <nav class="nav-one">
                 <h1>NAVINGATION</h1>
                 <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">SHOP</a></li>
+                    <li><a href="index.php">HOME</a></li>
+                    <li><a href="about.php">ABOUT</a></li>
+                    <li><a href="shop.php">SHOP</a></li>
                     <li><a href="#">REWARDS</a></li>
                 </ul> 
             </nav>
             <nav class="nav-two">
                 <h1>ACCOUNT</h1>
                 <ul>
-                    <li><a href="#">LOGIN</a></li>
+                    <li><a href="login.php">LOGIN</a></li>
                     <li><a href="#">REGISTER</a></li>
                 </ul>
             </nav>
