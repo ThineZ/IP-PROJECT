@@ -21,7 +21,7 @@
                 <h1>ACCOUNT</h1>
                 <ul>
                     <li><a href="login.php">LOGIN</a></li>
-                    <li><a href="#">REGISTER</a></li>
+                    <li><a href="reg.php">REGISTER</a></li>
                 </ul>
             </nav>
             <nav class="nav-three">

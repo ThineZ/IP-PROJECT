@@ -1,6 +1,6 @@
 <html>
 <head>
-    <link rel='stylesheet' type='text/css' href='CSS/login.css'>
+    <link rel='stylesheet' type='text/css' href='CSS/reg.css'>
 </head>
 <body>
     <div class="login-background">
@@ -18,9 +18,10 @@
                 PASSWORD:
             </label>
             <input type="password" name="upwd" placeholder="Password" class="form-control">
-            <input type="submit" name="login" value="Login">
+            <input type="submit" name="login" value="Sign Up">
+            <input type="reset" name="clear" value="Clear All">
         </form>
-        <span class="reg">Not a Hygge Member yet?? <a href="reg.php">SIGN UP</a></span>
+        <span class="reg">Already Hygge Member?? <a href="login.php">LOGIN</a></span>
     </div>
 </body>
 </html>
