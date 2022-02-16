@@ -388,13 +388,23 @@ template {
 /* ------------------------------------------------------------------------------------------------------------------------ */
 
 /* Main Section */
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 0px;
 }
 
 body {
   height: 100vh;
   overflow-x: hidden;
+}
+
+.login-status {
+  font-family: Bjorn;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  position: relative;
+  left: 20px;
+  top: 310px;
 }
 
 .text-one {

@@ -1,5 +1,4 @@
 <html>
-
 <head>
     <link rel='stylesheet' type='text/css' href='CSS/footer.css'>
 </head>
@@ -18,11 +17,22 @@
                 </ul>
             </nav>
             <nav class="nav-two">
-                <h1>ACCOUNT</h1>
-                <ul>
-                    <li><a href="login.php">LOGIN</a></li>
-                    <li><a href="reg.php">REGISTER</a></li>
-                </ul>
+                <?php
+
+                    if (isset($_SESSION['userId'])) {
+                        echo '<h1>ACCOUNT</h1>
+                        <ul>
+                            <li><a href="logout.php">LOGOUT</a></li>
+                        </ul>';
+                    }
+                    else {
+                        echo '<h1>ACCOUNT</h1>
+                        <ul>
+                            <li><a href="login.php">LOGIN</a></li>
+                            <li><a href="reg.php">REGISTER</a></li>
+                        </ul>';
+                    }
+                ?>
             </nav>
             <nav class="nav-three">
                 <h1>SOCIAL MEDIA LINKS</h1>
