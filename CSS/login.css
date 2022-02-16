@@ -425,9 +425,6 @@ input[type="text"] {
   padding: 5px;
   width: 300px;
   height: 40px;
-  font-family: Bjorn;
-  font-style: normal;
-  font-weight: normal;
 }
 
 input[type="password"] {
@@ -442,9 +439,6 @@ input[type="password"] {
   padding: 5px;
   width: 300px;
   height: 40px;
-  font-family: Bjorn;
-  font-style: normal;
-  font-weight: normal;
 }
 
 input[type="submit"] {

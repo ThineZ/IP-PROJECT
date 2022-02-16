@@ -1,4 +1,4 @@
-<?php require 'header.php';?>
+<?php require 'header.php'; ?>
 <html>
 
 <head>
@@ -19,7 +19,7 @@
           <div id="triangle-up" class="triangle-up"></div>
           <button id="dropbtn" class="dropbtn">TYPE</button>
         </div>
-        <div id="myDropdown" class="scrollable-checkbox" >
+        <div id="myDropdown" class="scrollable-checkbox">
           <input id="sofa" type="checkbox" /> SOFA <br />
           <input id="dining" type="checkbox" /> DINING TABLE <br />
           <input id="cardboard" type="checkbox" /> CARDBOARD <br />
@@ -33,7 +33,7 @@
           <div id="triangle-up-one" class="triangle-up-one"></div>
           <button id="dropbtn-one" class="dropbtn-one">COLOR</button>
         </div>
-        <div id="myDropdown-one" class="scrollable-checkbox-one" >
+        <div id="myDropdown-one" class="scrollable-checkbox-one">
           <input type="checkbox" /> red <br />
           <input type="checkbox" /> blue <br />
           <input type="checkbox" /> green <br />
@@ -43,7 +43,7 @@
           <div id="triangle-up-two" class="triangle-up-two"></div>
           <button id="dropbtn-two" class="dropbtn-one">SIZE</button>
         </div>
-        <div id="myDropdown-two" class="scrollable-checkbox-two" >
+        <div id="myDropdown-two" class="scrollable-checkbox-two">
           <input type="checkbox" /> small <br />
           <input type="checkbox" /> middem <br />
           <input type="checkbox" /> large <br />
@@ -65,7 +65,7 @@
       </div>
     </div>
   </div>
-  <?php require 'footer.php';?>
+  <?php require 'footer.php'; ?>
 </body>
 
 </html>

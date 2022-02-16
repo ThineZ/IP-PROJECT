@@ -1,5 +1,9 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -7,6 +11,7 @@
     <title>The Hygge</title>
     <link rel='stylesheet' type="text/css" href='CSS/header.css'>
 </head>
+
 <body>
     <header>
         <a href="index.php"><img class="logo" src="CSS/img/logo.png" alt="logo"></a>
@@ -24,4 +29,5 @@
         </label>
     </header>
 </body>
+
 </html>

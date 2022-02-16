@@ -1,4 +1,4 @@
-<?php require 'header.php';?>
+<?php require 'header.php'; ?>
 <html>
 
 <head>
@@ -9,8 +9,7 @@
   <div class="vision">
     <div class="vision-txt">
       <p>Our Vision:</p>
-      <span>To make homes feel <span class="vision-green">HYGGE</span> and <span
-          class="vision-green">GUILT-FREE!</span></span>
+      <span>To make homes feel <span class="vision-green">HYGGE</span> and <span class="vision-green">GUILT-FREE!</span></span>
       <p>Our motto:</p>
       <span>We don't <span class="vision-green">sleep</span> on furniture.</span>
     </div>
@@ -25,14 +24,14 @@
     </div>
     <div class="about">
       <p class="abt-intro">What does HYGGE mean? It means 'cozy' in Danish. We just want to make
-      home feel like, well, home. We want homes to feel spacious and
-      comfortable after a long day of work or fun. We want to save the
-      environment while doing so. Got a old furniture you want to sell? Bring
-      it in! We'll give your pre-owned furniture a new life and put it up for
-      auction to let it give love and comfort to its new owner!</p><br><br>
+        home feel like, well, home. We want homes to feel spacious and
+        comfortable after a long day of work or fun. We want to save the
+        environment while doing so. Got a old furniture you want to sell? Bring
+        it in! We'll give your pre-owned furniture a new life and put it up for
+        auction to let it give love and comfort to its new owner!</p><br><br>
       <div id="contact" class="link-btn"></div>
       <span class="abt-head">Contact us!</span><br>
-      <span>Your email address and contact number will not be published.</span> 
+      <span>Your email address and contact number will not be published.</span>
       <form>
         <br>
         <label class="abt-label" for="name">Name</label><br><br>
@@ -156,7 +155,7 @@
       </p>
     </div>
   </div>
-  <?php require 'footer.php';?>
+  <?php require 'footer.php'; ?>
 </body>
 
 </html>

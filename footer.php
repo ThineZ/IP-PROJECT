@@ -15,7 +15,7 @@
                     <li><a href="about.php">ABOUT</a></li>
                     <li><a href="shop.php">SHOP</a></li>
                     <li><a href="#">REWARDS</a></li>
-                </ul> 
+                </ul>
             </nav>
             <nav class="nav-two">
                 <h1>ACCOUNT</h1>

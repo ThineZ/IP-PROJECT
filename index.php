@@ -1,4 +1,4 @@
-<?php require 'header.php';?>
+<?php require 'header.php'; ?>
 <html>
 
 <head>
@@ -11,9 +11,15 @@
 
 <body>
   <div class="grid-layout">
+    <?php
+    if (isset($_SESSION['userId'])) {
+      echo '<p class="login-status">You are logged in!</p>';
+    } else {
+      echo '<p class="login-status">You are logged out!</p>';
+    }
+    ?>
     <div class="carousell">
-      <div class="carousel"
-        data-flickity='{ "fade": true, "imagesLoaded": true , "wrapAround": true, "autoPlay": true}'>
+      <div class="carousel" data-flickity='{ "fade": true, "imagesLoaded": true , "wrapAround": true, "autoPlay": true}'>
         <div class="carousel-cell">
           <img class="carousel-cell-image" src="CSS/img/1.jpg" />
         </div>
@@ -133,7 +139,7 @@
         </div>
       </div>
     </div>
-    <?php require 'footer.php';?>
+    <?php require 'footer.php'; ?>
 </body>
 
 </html>

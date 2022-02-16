@@ -9,7 +9,7 @@
         <img src="CSS/img/logo.png" alt="logo" width="100px" height="100px">
         <span class="info">WELCOME</span>
         <span class="info">LOGIN/SIGN UP to get started</span>
-        <form action="#" class="form-container" method="post">
+        <form action="reginsert.php" class="form-container" method="post">
             <label for="#" class="name-tag">
                 EMAIL:
             </label>
@@ -18,7 +18,7 @@
                 PASSWORD:
             </label>
             <input type="password" name="upwd" placeholder="Password" class="form-control">
-            <input type="submit" name="login" value="Sign Up">
+            <input type="submit" name="sign-up" value="Sign Up">
             <input type="reset" name="clear" value="Clear All">
         </form>
         <span class="reg">Already Hygge Member?? <a href="login.php">LOGIN</a></span>
