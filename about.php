@@ -3,9 +3,11 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="CSS/about.css" />
+  <script src="JS/map.js" defer></script>
+  <script type="text/javascript" language="javascript" src="http://www.streetdirectory.com/js/map_api/m.php"></script>
 </head>
 
-<body>
+<body onload="initialize()">
   <div class="vision">
     <div class="vision-txt">
       <p>Our Vision:</p>
@@ -50,7 +52,9 @@
       <br>
       <div id="locate" class="link-btn"></div>
       <span class="abt-head">Locate Us!</span><br>
-      <div class="map"></div>
+      <div class="map">
+        <div id="map_canvas" style="width:800px; height: 400px"></div>
+      </div>
       <div id="product" class="link-btn"></div>
       <span class="abt-head">Product Care</span>
       <p class="abt-para">Note:<br>
