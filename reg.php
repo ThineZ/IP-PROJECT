@@ -1,10 +1,15 @@
 <html>
+
 <head>
+    <script src="JS/header.js" defer></script>
     <link rel='stylesheet' type='text/css' href='CSS/reg.css'>
 </head>
+
 <body>
     <div class="login-background">
-        <a href="index.php"><div class="back-home"></div></a>
+        <a href="index.php">
+            <div class="back-home"></div>
+        </a>
         <a href="index.php"><label class="back-label"><span></span></label></a>
         <img src="CSS/img/logo.png" alt="logo" width="100px" height="100px">
         <span class="info">WELCOME</span>
@@ -24,4 +29,5 @@
         <span class="reg">Already Hygge Member?? <a href="login.php">LOGIN</a></span>
     </div>
 </body>
+
 </html>

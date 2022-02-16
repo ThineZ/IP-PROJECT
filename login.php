@@ -1,6 +1,7 @@
 <html>
 <head>
     <script src="JS/login.js" defer></script>
+    <script src="JS/header.js" defer></script>
     <link rel='stylesheet' type='text/css' href='CSS/login.css'>
 </head>
 

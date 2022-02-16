@@ -3,6 +3,7 @@
 
 <head>
   <script src="JS\shop.js" defer></script>
+  <script src="JS/header.js" defer></script>
   <link rel='stylesheet' type='text/css' href='CSS/shop.css'>
 </head>
 

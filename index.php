@@ -4,6 +4,7 @@
 <head>
   <script src="JS\flickity.pkgd.js" defer></script>
   <script src="https://unpkg.com/flickity-fade@1/flickity-fade.js" defer></script>
+  <script src="JS/header.js" defer></script>
   <link rel='stylesheet' type="text/css" href='CSS/index.css'>
   <link rel='stylesheet' type="text/css" href='CSS/flickity.css'>
   <link rel="stylesheet" type="text/css" href="https://unpkg.com/flickity-fade@1/flickity-fade.css">
