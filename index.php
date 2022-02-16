@@ -22,7 +22,17 @@
     <div class="carousell">
       <div class="carousel" data-flickity='{ "fade": true, "imagesLoaded": true , "wrapAround": true, "autoPlay": true}'>
         <div class="carousel-cell">
-          <img class="carousel-cell-image" src="CSS/img/1.jpg" />
+          <div class="quiz">
+            <input type="button" value="Go to Quiz">
+            <a class="p-card" href="#">
+              <div class="p-card">
+                <p class="p-card">Take this quiz to find out
+                  the best Scandinavian
+                  theme for you!</p>
+              </div>
+              <div class="img-card"></div>
+          </div>
+          </a>
         </div>
         <div class="carousel-cell">
           <img class="carousel-cell-image" src="CSS/img/2.jpg" />

@@ -1,4 +1,5 @@
 <html>
+
 <head>
     <link rel='stylesheet' type='text/css' href='CSS/footer.css'>
 </head>
@@ -13,25 +14,24 @@
                     <li><a href="index.php">HOME</a></li>
                     <li><a href="about.php">ABOUT</a></li>
                     <li><a href="shop.php">SHOP</a></li>
-                    <li><a href="#">REWARDS</a></li>
+                    <li><a href="rewards.php">REWARDS</a></li>
                 </ul>
             </nav>
             <nav class="nav-two">
                 <?php
 
-                    if (isset($_SESSION['userId'])) {
-                        echo '<h1>ACCOUNT</h1>
+                if (isset($_SESSION['userId'])) {
+                    echo '<h1>ACCOUNT</h1>
                         <ul>
                             <li><a href="logout.php">LOGOUT</a></li>
                         </ul>';
-                    }
-                    else {
-                        echo '<h1>ACCOUNT</h1>
+                } else {
+                    echo '<h1>ACCOUNT</h1>
                         <ul>
                             <li><a href="login.php">LOGIN</a></li>
                             <li><a href="reg.php">REGISTER</a></li>
                         </ul>';
-                    }
+                }
                 ?>
             </nav>
             <nav class="nav-three">
