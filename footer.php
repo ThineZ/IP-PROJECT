@@ -24,6 +24,7 @@
                     echo '<h1>ACCOUNT</h1>
                         <ul>
                             <li><a href="logout.php">LOGOUT</a></li>
+                            <li><a href="CART/cart.php">CART</a></li>
                         </ul>';
                 } else {
                     echo '<h1>ACCOUNT</h1>

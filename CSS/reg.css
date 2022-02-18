@@ -522,10 +522,11 @@ input[type="reset"] {
 
 .back-label {
   position: absolute;
-  bottom: 400;
+  bottom: 858;
   left: 50;
   margin-left: 1em;
-  height: 100%;
+  width: 50px;
+  height: 80px;
   display: flex;
   align-items: center;
   cursor: pointer;

@@ -53,15 +53,14 @@
       </div>
       <div class="items-two">
         <div class="item-grid">
-          <div id="chair-info" class="chair-info">
-            <img src="CSS/img/chair.png" alt="item-one" width="300px" height="300px">
-            <span> OAK GREEN CHAIR <br> $119.00</span>
-          </div>
-          <div id="table-info" class="table-info">
-            <img src="CSS/img/table.png" alt="item-one" width="300px" height="300px">
-            <span> 105CM WRITING TABLE <br> $599.00</span>
-          </div>
-
+            <div id="chair-info" class="chair-info">
+              <a href="CART/chair.php"><img src="CSS/img/chair.png" alt="item-one" width="300px" height="300px">
+              <span> OAK GREEN CHAIR <br> $119.00</span></a>
+            </div>
+            <div id="table-info" class="table-info">
+              <a href="CART/table.php"><img src="CSS/img/table.png" alt="item-one" width="300px" height="300px">
+              <span> 105CM WRITING TABLE <br> $599.00</span></a>
+            </div>
         </div>
       </div>
     </div>
