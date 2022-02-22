@@ -3,6 +3,7 @@
 <head>
     <script src="../JS/header.js" defer></script>
     <script src="../JS/chair.js" defer></script>
+    <script src="../JS/chairTOcart.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <link rel='stylesheet' type='text/css' href='../CSS/chair.css'>
 </head>
@@ -58,7 +59,8 @@
                     </tr>
                 </tbody>
             </table>
-            <a href="cart.php" id="chair"><input type="button" value="Add to Cart"></a>
+            <!-- <a href="cart.php" id="chair"><input type="button" value="Add to Cart"></a> -->
+            <button class="chair" id="chair">Add to Cart</button>
         </div>
     </div>
 </body>

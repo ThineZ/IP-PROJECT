@@ -1,0 +1,98 @@
+/*grid layout overall*/
+.grid-layout{
+    display: grid;
+    height: 50vh;
+    grid-template-columns: 1fr 0.1fr 1fr;
+    grid-template-rows: 0.05fr 0.1fr 0.05fr;
+    grid-template-areas: 
+    "delivery vline payment"
+    "question vline paymentcontent"
+    "question vline done";
+    padding: 100px;
+}
+/*'DELIVERY' title*/
+.delivery{
+    font-family: Bjorn;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    color: #358875;
+    grid-area: delivery;
+    background-color: aquamarine;
+}
+/*delivery content*/
+.question{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    grid-area: question;
+    background-color: blueviolet;
+}
+/*textbox under 'no' selection in delivery*/
+#box{
+    border-radius: 10px;
+    position: relative;
+}
+/*submit button under 'no' selection in delivery*/
+#submit{
+    background-color: #358875;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: Bjorn;
+    position: relative;
+    top: 20px;
+    left: 400px;
+}
+/*vertical line between delivery and payment*/
+.line{
+    border-left: 6px solid #358875;
+    height: 500px;
+    grid-area: vline;
+}
+/*'PAYMENT' title*/
+.payment{
+    font-family: Bjorn;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    color: #358875;
+    grid-area: payment;
+    background-color: brown;
+}
+/*'PAYMENT' content*/
+.paymentcontent{
+    grid-area: paymentcontent;
+    background-color: chartreuse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+/*credit card number box*/
+#ccn{
+    border-radius: 5px;
+}
+/*expiring box*/
+#exp{
+    border-radius: 5px;
+}
+/*cvv box*/
+#cvv{
+    border-radius: 5px;
+}
+/*entire form submit button position*/
+.done{
+    grid-area: done;
+    position: relative;
+    top: 50px;
+    left: 500px;
+}
+/*entire form submit button style*/
+#done{
+    background-color: #358875;
+    color: white;
+    border-radius: 20px;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size:20px;
+    font-family: Bjorn;  
+}

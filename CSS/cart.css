@@ -437,166 +437,90 @@ body {
 /* CART ITEMS ONE */
 
 .cart-item-one {
-  padding: 20px 30px;
-  height: 120px;
-  display: flex;
-  justify-content: center;
+  background-color: crimson;
+  width: 700px;
+  height: 130px;
   position: relative;
-  right: 200px;
+  left: 430px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
 }
 
 .del-btn {
   font-size: 40px;
-  font-weight: bold;
+  font-family: Bjorn;
+  font-style: normal;
+  font-weight: lighter;
   position: relative;
   top: 30px;
-  right: 10px;
   cursor: pointer;
 }
 
 .product-img {
+  background-image: url("../CSS/img/chair.png");
   width: 100px;
   height: 100px;
-  background-image: url(../CSS/img/chair.png);
-  background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
-  top: 5px;
-  left: 20px;
+  background-position: center;
+  background-size: cover;
 }
 
 .description {
   font-family: Bjorn;
-  font-weight: normal;
   font-style: normal;
-  font-size: 20px;
+  font-weight: normal;
   position: relative;
   top: 40px;
-  left: 75px;
 }
 
 .quantity {
   position: relative;
   top: 35px;
-  left: 170px;
 }
 
 .quantity button {
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
+  cursor: pointer;
   border-style: none;
-  background: #358875;
-  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
   font-family: Bjorn;
-  font-weight: bold;
   font-style: normal;
-  font-size: 30px;
+  font-weight: lighter;
+  background: white;
 }
 
 .plus {
-  position: relative;
 }
 
 .minus {
-  position: relative;
-  left: 20px;
 }
 
 .quantity input {
-  width: 30px;
-  height: 30px;
   text-align: center;
-  border-style: none;
-  position: relative;
-  font-family: Bjorn;
-  font-weight: normal;
-  font-style: normal;
-  bottom: 5px;
-  left: 10px;
-}
-
-/* CART ITEMS TWO */
-
-.cart-item-two {
-  padding: 20px 30px;
-  height: 120px;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  right: 200px;
-}
-
-.del-btn-two {
-  font-size: 40px;
-  font-weight: bold;
-  position: relative;
-  top: 30px;
-  left: 5px;
-  cursor: pointer;
-}
-
-.product-img-two {
-  width: 100px;
-  height: 100px;
-  background-image: url(../CSS/img/table.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-  top: 5px;
-  left: 40px;
-}
-
-.description-two {
-  font-family: Bjorn;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 20px;
-  position: relative;
-  top: 40px;
-  left: 95px;
-}
-
-.quantity-two {
-  position: relative;
-  top: 30px;
-  left: 150px;
-}
-
-.quantity-two button {
   width: 40px;
-  height: 40px;
-  border-radius: 50px;
   border-style: none;
-  background: #358875;
-  color: white;
   font-family: Bjorn;
-  font-weight: bold;
   font-style: normal;
-  font-size: 30px;
-}
-
-.plus {
-  position: relative;
-}
-
-.minus {
-  position: relative;
-  left: 20px;
-}
-
-.quantity-two input {
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  border-style: none;
-  position: relative;
-  font-family: Bjorn;
   font-weight: normal;
+}
+
+/* PAY BTN */
+.payment {
+  position: relative;
+  cursor: pointer;
+  top: 400px;
+  left: 1250px;
+  background: #358577;
+  border-style: none;
+  width: 100px;
+  height: 50px;
+  border-radius: 40px;
+  font-family: Bjorn;
   font-style: normal;
-  bottom: 5px;
-  left: 10px;
+  font-weight: normal;
 }
 
 /* LOGO & BACK STYLE */

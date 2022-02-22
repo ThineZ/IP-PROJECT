@@ -535,7 +535,7 @@ td {
   text-align: center;
 }
 
-input[type="button"] {
+.chair {
   width: 150px;
   height: 80px;
   position: relative;
@@ -551,7 +551,7 @@ input[type="button"] {
   transition: 150ms ease-in-out 150ms;
 }
 
-input[type="button"]:hover {
+.chair:hover {
   background-color: #50abc7;
   cursor: pointer;
   transition: 150ms ease-in-out 150ms;
