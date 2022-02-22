@@ -20,7 +20,7 @@
             <p id="info">You don't have any items in your cart.
                 Start shopping :)</p>
             <div class="cart-item-one" id="first-item">
-                <div class="del-btn"><span>&times;</span></div>
+                <div class="del-btn" id="del-btn"><span>&times;</span></div>
                 <div class="product-img"></div>
                 <div class="description">
                     <span>OAK GREEN CHAIR</span>

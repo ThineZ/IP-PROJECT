@@ -437,7 +437,7 @@ body {
 /* CART ITEMS ONE */
 
 .cart-item-one {
-  background-color: crimson;
+  /* background-color: crimson; */
   width: 700px;
   height: 130px;
   position: relative;
